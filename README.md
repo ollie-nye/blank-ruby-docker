@@ -43,5 +43,5 @@ docker exec -i (-t) <parent_directory>_db_1 <command>
 To use the database in a console
 ```bash
 docker exec -it <parent_directory>_db_1 /bin/bash
-psql -h localhost -U postgres
+psql -h localhost -U postgres -d <database_name>
 ```
